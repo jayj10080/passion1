@@ -5,5 +5,8 @@ class PlacesController < ApplicationController
   def index
     render json: Leak.all
   end
+
+  def j
+  end
   
 end
